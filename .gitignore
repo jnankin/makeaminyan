@@ -1,0 +1,15 @@
+syntax:glob
+cache/**
+log/**
+web/sf
+lib/model/doctrine/base/**
+lib/form/doctrine/base/**
+config/databases.yml
+log
+*.orig
+apps/config/environments
+app/config/app.yml
+app/config/factories.yml
+app/config/settings.yml
+config/environments
+.idea
