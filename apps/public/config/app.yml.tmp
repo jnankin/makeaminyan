@@ -1,0 +1,28 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  temp_password: makeaminyan1
+  url_prefix: http://makeaminyan.com/
+  twilio:
+    sid:
+    auth_token:
+    api_version: "2010-04-01"
+    caller_id:
+  emails:
+    internal: makeaminyan1@gmail.com
+  sf_guard_plugin:
+    remember_cookie_name: makeaminyan
+    remember_key_expiration_age: 604800 #1 week
+  mailer:
+    defaults:
+      send_email: true
+      connection: # default connection uses mail() native function
+        type: native
+        params: ~
+      from: makeaminyan1@gmail.com
+      reply-to: makeaminyan1@gmail.com
+      cc: ~
+      bcc: ~
+      subject-template: "Make A Minyan - %s"
