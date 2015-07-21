@@ -1,0 +1,27 @@
+<center>
+		<div id="splash">
+			<div id="signup">
+				<h1>Signup <span class="requiredDescription">(* denotes required)</span></h1>
+
+				<form action="?" method="post">
+					<table>
+						<tr><td class="label required">First name *</td><td class="widget"><input type="text"></td></tr>
+						<tr><td class="label required">Last name *</td><td class="widget"><input type="text"></td></tr>
+						<tr><td class="label required">Email *</td><td class="widget"><input type="text"></td></tr>
+						<tr><td class="label required">Password *</td><td class="widget"><input type="text"></td></tr>
+						<tr><td class="label">Phone</td><td class="widget"><input type="text"></td></tr>
+						<tr><td class="label required">Tribe *</td>
+							<td class="widget">
+								<select>
+									<option>Cohen</option>
+									<option>Levi</option>
+									<option selected="selected">Yisrael</option>
+								</select>
+						</td></tr>
+						<tr><td></td><td ckass="widget"><input value="Join!" type="submit"></td></tr>
+					</table>
+				</form>
+
+			</div>
+		</div>
+	</center>
