@@ -1,0 +1,614 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464032;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #221D1D;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h1.error {
+    font-weight: bold;
+    color: red;
+}
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #ED3A00;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 940px;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 40px;
+	margin: 0;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-left: 20px;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.8em;
+}
+
+#logo p {
+	float: left;
+	margin: 0;
+	padding: 26px 0 0 10px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #5E4E38;
+} 
+
+#logo p a {
+	color: #5E4E38;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #A83A01;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+	background: #E9E3CB;
+	border-bottom: 4px solid #FFFFFF;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 2px 5px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #464032;
+}
+
+#search-submit {
+	width: 50px;
+	height: 23px;
+	border: 1px solid #525252;
+	background: #525252;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 36px;
+	margin: 0 auto;
+	padding: 0;
+	background: #FC9D00;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 28px;
+	margin-bottom: 10px;
+	padding: 8px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #E93301;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #E93301;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#page-bgtop {
+	padding: 20px 0px;
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 620px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #000000;
+}
+
+.post .title a {
+	color: #221D1D;
+	border: none;
+}
+
+.post .meta {
+	height: 30px;
+	border-bottom: 1px solid #DBDBDB;
+	background: #F4F4F4;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta .posted {
+	float: right;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta a {
+	color: #464032;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 280px;
+	padding: 0px;
+	color: #787878;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dotted #E5E0C6;
+	margin: 0px 30px;
+	border-right: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img03.gif) no-repeat left 5px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: #FC9D00;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 10px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+	color: #898989;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #6E6E6E;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	border-top: 4px solid #EBE6D1;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+	color: #444444;
+}
+
+button.fancy.important, .modal button.important {
+    font-weight: bold;
+}
+
+button.fancy, input[type='button'].fancy, a.fancy, .modal button {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/gray.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #9F9F9F;
+    font-size: 12px;
+    color: #4F4F4F;
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+}
+
+button.fancy:hover, a.fancy:hover, .modal button:hover {
+    cursor: pointer;
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/grayHover.png) repeat-x 0 0;
+    border-color: #5F5F5F;
+}
+
+
+button.action, input[type='button'].action, a.action {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/blue.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .8);
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #9F9F9F;
+
+}
+
+button.action:hover, a.action:hover {
+    cursor: pointer;
+    border: 1px solid #5F5F5F;
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/blueHover.png) repeat-x 0 0;
+}
+
+
+
+
+button.bigGreen, input[type='button'].bigGreen, a.bigGreen {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/greenButton.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .8);
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #9F9F9F;
+
+}
+
+button.bigGreen:hover, a.bigGreen:hover {
+    cursor: pointer;
+    border: 1px solid #5F5F5F;
+}
+
+
+.successMessage {
+    background-color: #DFFFE3;
+    border: 1px solid #065F12;
+    padding: 10px;
+    width: 400px;
+    color: #054F0F;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    background-color: #FFBFC2;
+    border: 1px solid #8F0006;
+    padding: 10px;
+    width: 400px;
+    color: #6F1B1F;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.errorMessage ul.error_list {
+    padding-left: 10px;
+}
+
+ul.error_list{
+    list-style:none;
+    padding:0;
+    padding-top: 5px;
+    margin:0;
+}
+
+ul.error_list li{
+    background: url(/images/icon_sml_alert.png) no-repeat left top;
+    color: red;
+}
+
+
+
+/*************
+ * BOXY
+ *************/
+
+
+  .boxy-wrapper { position: absolute; }
+.boxy-wrapper.fixed { position: fixed; }
+
+/* Modal */
+
+.boxy-modal-blackout { position: absolute; background-color: black; left: 0; top: 0; }
+
+/* Border */
+
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .top-left,
+.boxy-wrapper .top-right,
+.boxy-wrapper .bottom-right,
+.boxy-wrapper .bottom-left { width: 10px; height: 10px; padding: 0 }
+
+.boxy-wrapper .top-left { background: url('/images/boxy-nw.png'); }
+.boxy-wrapper .top-right { background: url('/images/boxy-ne.png'); }
+.boxy-wrapper .bottom-right { background: url('/images/boxy-se.png'); }
+.boxy-wrapper .bottom-left { background: url('/images/boxy-sw.png'); }
+
+/* IE6+7 hacks for the border. IE7 should support this natively but fails in conjuction with modal blackout bg. */
+/* NB: these must be absolute paths or URLs to your images */
+.boxy-wrapper .top-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/boxy-nw.png'); }
+.boxy-wrapper .top-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/boxy-ne.png'); }
+.boxy-wrapper .bottom-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/boxy-se.png'); }
+.boxy-wrapper .bottom-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/boxy-sw.png'); }
+
+.boxy-wrapper .top,
+.boxy-wrapper .bottom { height: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+
+.boxy-wrapper .left,
+.boxy-wrapper .right { width: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+
+/* Title bar */
+
+.boxy-wrapper .title-bar {
+    background: #FC9D00;
+    height: 15px;
+    padding: 10px 10px 15px 10px;
+    color: black;
+}
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { font-size: 20px; color: black; line-height: 1; margin: 0; padding: 0; font-weight: bold; }
+.boxy-wrapper .title-bar .close { float: right; margin-top: -25px;}
+
+/* Content Region */
+
+.boxy-inner { background-color: white; padding: 0; font-size: 13px;}
+
+/* Question Boxes */
+
+.boxy-wrapper .question { width: 350px; min-height: 80px; margin-top: 20px; }
+.boxy-wrapper .answers { padding: 20px; text-align: right; }
+.boxy-wrapper .answers input {
+    padding: 5px;
+    background: #d2d2d2 url(/images/bg-btn.gif) repeat-x 0 0;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    border: 1px solid black;
+    font-size: 14px;
+    color: #4F4F4F;
+    vertical-align: middle;
+}
+
+.boxy-wrapper .answers input:hover {
+    background-image: none;
+    background: #DFDFDF;
+    cursor: pointer;
+
+}
+
+div.boxy-content {
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+
+#splash {
+	width: 720px;
+	height: 380px;
+	background-image: url(/images/splash.png);
+}
+
+#signup {
+	text-align:left;
+	margin-left:390px;
+	padding-top:30px;
+
+}
+
+#signup h1 {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+#signup h1 .requiredDescription {
+	font-size: 10px;
+}
+
+div.fieldset {
+    margin-top: px;
+}
+
+div.fieldset label {
+    font-size: 11px;
+}
+
+div.shortField, div.shortField input, div.shortField input[type="text"] {
+    width: 130px;
+    margin-right: 20px;
+    
+}
+div.field {
+    margin-top: 0px;
+}
+
+div.field, div.field input, div.field input[type="text"], div.field input[type="password"] {
+    width: 280px;
+}
+
+div.fieldset input {
+    padding: 2px;
+}

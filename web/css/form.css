@@ -1,0 +1,171 @@
+.form h1 {
+    padding: 10px;
+    font-size: 16px;
+    padding-bottom: 0;
+    margin-bottom: 3px;
+}
+
+.form h1.nosubtitle {
+    padding: 10px;
+    font-size: 16px;
+    padding-bottom: 0;
+    margin-bottom: 3px;
+}
+
+.form p.subtitle {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #5F5F5F;
+}
+
+.form {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form td {
+    padding: 10px 5px 10px 5px;
+}
+
+.form td.label {
+    text-align: right;
+    font-size: 16px;
+    color: #6F6F6F;
+    vertical-align: top;
+
+}
+
+.form td.label span.required{
+    font-weight: bold;
+    color: red;
+}
+
+.small {
+    font-size: 10px;
+    color: #5F5959;
+    font-weight:normal;
+}
+
+.form .error {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.form button {
+    padding: 5px;
+    background: #d2d2d2 url(/images/bg-btn.gif) repeat-x 0 0;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size: 16px;
+
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+}
+
+.form button:hover {
+    cursor: pointer;
+    border: 1px solid #5F5F5F;
+}
+.form table {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 5px; 	
+}
+
+/*********************
+ * STACKED FORM
+ *********************/
+
+.stackedForm .field-wrapper {
+    margin-bottom: 20px;
+}
+.stackedForm h2 {
+    margin-left: -25px;
+    margin-bottom: 20px;
+}
+.stackedForm .label-wrapper {
+    margin-bottom: 3px;
+}
+
+.stackedForm .required{
+    color: red;
+    font-style: italic;
+}
+
+.stackedForm .label-wrapper label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.stackedForm textarea {
+    padding: 5px;
+    border: 1px solid #2F2F2F;
+    font-size: 12px;
+    width: 300px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+
+    font-family: "Trebuchet MS",Trebuchet,Calibri,Tahoma,Arial,sans-serif;
+}
+
+.stackedForm input:focus.textfield, .stackedForm input:focus.textfield-sm, .stackedForm textarea:focus, .stackedForm select:focus {
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#FFF9AB none repeat scroll 0 0;
+}
+
+.stackedForm button {
+    padding: 5px;
+    background: #d2d2d2 url(/images/bg-btn.gif) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    border: 1px solid black;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.stackedForm .field-wrapper ul.radio_list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.stackedForm button:hover {
+    background-image: none;
+    background: #DFDFDF;
+    cursor: pointer;
+}
+
+.stackedForm .help-wrapper {
+    font-size: 10px;
+    color: #5F5959;
+    font-weight:normal;
+    margin-bottom: 5px;
+}
+
+.stackedForm .error-wrapper {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.stackedForm .error-wrapper ul.error_list, .stackedForm .error-wrapper ul.error_list li{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+
+.stackedForm .error-wrapper ul.error_list li{
+    background: url(/images/icons/icon_sml_alert.png) no-repeat left top;
+    color: red;
+    padding-left: 18px;
+}

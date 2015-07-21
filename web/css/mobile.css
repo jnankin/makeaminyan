@@ -1,0 +1,192 @@
+
+.greenButtonFixed, .blueButtonFixed, .whiteButtonFixed {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 275px;
+    height: 27px;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+    border: none;
+    margin: none;
+}
+
+button.greenButtonFixed, button.blueButtonFixed, button.whiteButtonFixed {
+    height: 37px;
+    padding: 0px;
+}
+
+div.centered {
+    text-align: center;
+}
+
+.greenButtonFixed {
+    background-image: url(/images/mobile/greenButtonFixed.png);
+}
+
+.blueButtonFixed {
+    background-image: url(/images/mobile/blueButtonFixed.png);
+}
+
+.whiteButtonFixed {
+    background-image: url(/images/mobile/whiteButtonFixed.png);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div#header {
+    margin-top: 5px; text-align: right;
+    background: #FFFFFF url(/images/mobileBG.png) repeat-x 0 0;
+}
+
+div#wrapper{
+    margin: 10px;
+}
+
+
+button.fancy.important, .modal button.important {
+    font-weight: bold;
+}
+
+button.fancy, input[type='button'].fancy, a.fancy, .modal button {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/gray.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #9F9F9F;
+    font-size: 12px;
+    color: #4F4F4F;
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+}
+
+button.fancy:hover, a.fancy:hover, .modal button:hover {
+    cursor: pointer;
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/grayHover.png) repeat-x 0 0;
+    border-color: #5F5F5F;
+}
+
+
+button.action, input[type='button'].action, a.action {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/blue.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .8);
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #9F9F9F;
+
+}
+
+button.action:hover, a.action:hover {
+    cursor: pointer;
+    border: 1px solid #5F5F5F;
+    background: #d2d2d2 url(/images/buttonBackgrounds/new/blueHover.png) repeat-x 0 0;
+}
+
+
+
+
+button.bigGreen, input[type='button'].bigGreen, a.bigGreen {
+    padding: 4px 8px;
+    margin-right: 7px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    background: #d2d2d2 url(/images/buttonBackgrounds/greenButton.png) repeat-x 0 0;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0, .8);
+    vertical-align: middle;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #9F9F9F;
+
+}
+
+button.bigGreen:hover, a.bigGreen:hover {
+    cursor: pointer;
+    border: 1px solid #5F5F5F;
+}
+
+
+.successMessage {
+    background-color: #DFFFE3;
+    border: 1px solid #065F12;
+    padding: 10px;
+    width: 90%;
+    color: #054F0F;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    background-color: #FFBFC2;
+    border: 1px solid #8F0006;
+    padding: 10px;
+    width: 90%;
+    color: #6F1B1F;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.errorMessage ul.error_list {
+    padding-left: 10px;
+}
+
+ul.error_list{
+    list-style:none;
+    padding:0;
+    padding-top: 5px;
+    margin:0;
+}
+
+ul.error_list li{
+    background: url(/images/icon_sml_alert.png) no-repeat left top;
+    color: red;
+}
+
+a {
+	text-decoration: none;
+	color: #ED3A00;
+}
+
+a:hover {
+}
