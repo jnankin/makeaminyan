@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: index, action: index }
+
+contact:
+  url:   /contact
+  param: { module: static, action: contact }
+
+about:
+  url:   /about
+  param: { module: static, action: about }
+
+submitMinyan:
+  url:   /submitMinyan
+  param: { module: static, action: submitMinyan }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+  
+default:
+  url:   /:module/:action/*

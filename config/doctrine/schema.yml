@@ -1,0 +1,171 @@
+Minyan:
+  connection: doctrine
+  tableName: minyan
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(100)
+      notnull: false
+    identifier:
+      type: string(100)
+      notnull: false
+    address1:
+      type: string(255)
+      notnull: false
+    address2:
+      type: string(255)
+      notnull: false
+    city:
+      type: string(255)
+      notnull: false
+    state:
+      type: string(2)
+      notnull: false
+    zip:
+      type: string(10)
+      notnull: false
+    country:
+      type: string(255)
+      notnull: false
+      default: United States
+    number_phone_calls:
+      type: integer(4)
+      notnull: true
+    number_texts:
+      type: integer(4)
+      notnull: true
+    number_emails:
+      type: integer(4)
+      notnull: true
+
+
+
+
+MinyanUser:
+  connection: doctrine
+  tableName: minyan_user
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(8)
+      notnull: true
+    minyan_id:
+      type: integer(8)
+      notnull: true
+    is_admin:
+      type: boolean
+      notnull: true
+      default: false
+    use_email:
+      type: boolean
+      notnull: true
+      default: false
+    use_phone:
+      type: boolean
+      notnull: true
+      default: false
+    use_sms:
+      type: boolean
+      notnull: true
+      default: false
+  indexes:
+    idx_user_id_minyan_id:
+      fields: [user_id, minyan_id]
+      type: unique
+  relations:
+    User:
+      class: SfGuardUser
+      local: user_id
+      foreign: id
+      foreignType: one
+    Minyan:
+      local: minyan_id
+      foreign: id
+      foreignAlias: Users
+
+Blast:
+  connection: doctrine
+  tableName: blast
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    event_type:
+      type: enum
+      values: [shachris, mincha, maariv, tehilim]
+      notnull: true
+    event_time:
+      type: time
+      notnull: false
+    extra_reason:
+      type: string(255)
+      notnull: false
+    has_fired:
+      type: boolean
+      notnull: true
+      default: false
+    minyan_id:
+      type: integer(8)
+      notnull: true
+    initiating_user_id:
+      type: integer(8)
+      notnull: true
+    number_phone_calls:
+      type: integer(4)
+      notnull: true
+    number_texts:
+      type: integer(4)
+      notnull: true
+    number_emails:
+      type: integer(4)
+      notnull: true
+  relations:
+    Minyan:
+      foreign: id
+      local: minyan_id
+    InitiatingUser:
+      class: SfGuardUser
+      foreign: id
+      local: initiating_user_id
+    Responses:
+      orderBy: updated_at desc
+
+BlastResponse:
+  connection: doctrine
+  tableName: blast_response
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    blast_id:
+      type: integer(8)
+      notnull: true
+    user_id:
+      type: integer(8)
+      notnull: true
+    status:
+      type: enum
+      values: [yes, no, maybe]
+      notnull: false
+    additional:
+      type: integer(4)
+      notnull: false
+  relations:
+    Blast:
+      local: blast_id
+      foreign: id
+      foreignAlias: Responses
+    User:
+      class: SfGuardUser
+      local: user_id
+      foreign: id

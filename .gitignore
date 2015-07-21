@@ -7,9 +7,9 @@ lib/form/doctrine/base/**
 config/databases.yml
 log
 *.orig
-apps/config/environments
-app/config/app.yml
-app/config/factories.yml
-app/config/settings.yml
+apps/public/config/environments
+apps/public/config/app.yml
+apps/public/config/factories.yml
+apps/public/config/settings.yml
 config/environments
 .idea
